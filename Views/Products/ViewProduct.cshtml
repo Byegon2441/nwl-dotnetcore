@@ -1,16 +1,32 @@
 @* @model Products *@
 @* ประกาศ model ใข้ @model (ใช้ m ตัวเล็ก)*@
-@* <p>Name  = @Model.Name</p><br>
-<p>Detail  = @Model.Detail</p><br>
-<p>Price  = @Model.Price</p><br> *@
+@* <p>Name = @Model.Name</p><br>
+    <p>Detail = @Model.Detail</p><br>
+    <p>Price = @Model.Price</p><br> *@
 @* เรียกใช้ค่าใน model ใช้ @Model(M ตัวใหญ่) *@
 
 @model IEnumerable<Products>
-        @* การส่งค่ามาเป็นแบบ List ใช้ IEnumerable<Products> *@
-   @foreach (var item in Model)
-   {
-       <p>@item.Name</p><br>
-       <p>@item.Detail</p><br>
-       <p>@item.Price</p><hr>
-       
-   } 
+@* การส่งค่ามาเป็นแบบ List ใช้ IEnumerable<Products> *@
+@{
+    ViewData["Title"] = "Products";
+}
+<table class="table">
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Detail</th>
+        <th>Price</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>#</td>
+            <td>@item.Name </td>
+            <td>@item.Detail </td>
+            <td>@item.Price </td>
+
+
+        </tr>
+    }
+</table>

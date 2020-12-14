@@ -14435,6 +14435,11 @@
       "FilePath": "c:\\xampp\\htdocs\\nwl-dotnetcore\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\xampp\\htdocs\\nwl-dotnetcore\\Views\\Products\\ProductAll.cshtml",
+      "TargetPath": "Views\\Products\\ProductAll.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

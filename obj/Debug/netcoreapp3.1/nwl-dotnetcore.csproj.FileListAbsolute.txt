@@ -37,3 +37,4 @@ C:\xampp\htdocs\nwl-dotnetcore\obj\Debug\netcoreapp3.1\nwl-dotnetcore.genruntime
 C:\xampp\htdocs\nwl-dotnetcore\obj\Debug\netcoreapp3.1\nwl-dotnetcore.csproj.CopyComplete
 C:\xampp\htdocs\nwl-dotnetcore\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
 C:\xampp\htdocs\nwl-dotnetcore\obj\Debug\netcoreapp3.1\Razor\Views\Products\ViewProduct.cshtml.g.cs
+C:\xampp\htdocs\nwl-dotnetcore\obj\Debug\netcoreapp3.1\Razor\Views\Products\ProductAll.cshtml.g.cs
